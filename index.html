@@ -6,21 +6,81 @@
   <meta name="descripcion" content="" />
   <meta name="keywords" content="" />
   <meta http-equiv="X-UA-Compatiable" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="style/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
   
   <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
- 
-  <title></title>
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script/bootstrap.min.js"></script>
+  
+  <title>Tank.com</title>
 </head>
 
 <body>
-
-
+	<header>
+		<div class="header_m"> 
+			<div class="logo">
+				<h1>Tank.com</h1>
+			</div>
+			<nav class="navbar bg-mbody navbar-expand-sm navbar-dark sticky-top">
+				<a class="navbar-brand bg-warning px-3 ml-5" href="index.html">
+					<img src="img/icons1-tank.png" alt="Tank.com" style="width:30px;" />
+				</a>
+				<button class="navbar-toggler bg-mbody" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item mr-2 mr-lg-4 active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item mx-2 mx-lg-4">
+							<a class="nav-link" href="#">Poland</a>
+						</li>
+						<li class="nav-item mx-2 mx-lg-4">
+							<a class="nav-link" href="#">German</a>
+						</li>
+						<li class="nav-item mx-2 mx-lg-4">
+							<a class="nav-link disabled" href="#">France</a>
+						</li>
+						<li class="nav-item dropdown mx-2 mx-lg-4">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"->Other</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Ja</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="row main_container">
+		<div class="col-md-4 col-lg-3 box_1 padd">
+			<button type="button" class="btn btn-warning btn-block">I<span class="badge badge-light span_b">4</span></button>
+			<button type="button" class="btn btn-warning btn-block">II<span class="badge badge-light span_b">98</span></button>
+			<button type="button" class="btn btn-warning btn-block">III<span class="badge badge-light span_b">23</span></button>
+			<button type="button" class="btn btn-warning btn-block">IV<span class="badge badge-light span_b">6</span></button>
+			<button type="button" class="btn btn-warning btn-block">V<span class="badge badge-light span_b">14</span></button>
+		</div>
+		<div class="col-md-8 col-lg-7 box_2 padd">
+			<main>
+			
+			</main>
+		</div>
+		<div class="col-md-12 col-lg-2 box_3 padd">
+		
+		</div>
+		<div class="col-12 box_4 padd">
+			
+		</div>
+		<div class="col-12 box_5 padd">
+			<footer>
+				Przemysław Dąbrowski &copy; 2018 v 0.1
+			</footer>
+		</div>
+	</div>
+	
 	<script type="text/javascript" src="script/function.js"></script>
 </body>
 
